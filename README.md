@@ -1,10 +1,10 @@
 PREREQUISITES:
 
-1. Install Azure PowerShell on the top of Windows PowerShell on your sytem.
+1. Install Azure PowerShell on the top of Windows PowerShell on your system.
 
-    Fore reference: https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-3.8.0
+    Reference: https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-3.8.0
 
-2. Go to https://portal.azure.com/. Then, App registrations -> Owned Application -> Your-App -> Authentication. Click on 'ID tokens' checkbox.
+2. Go to https://portal.azure.com/. Then, App registrations -> Owned Application -> Your-App -> Authentication. Click on both 'ID tokens' & 'Access tokens' checkbox.
 	We are doing this because in the powershell script, we have used "scope" = "openid"
 
 
